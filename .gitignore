@@ -1,0 +1,11 @@
+### IntelliJ IDEA ###
+/.idea/
+/target/
+/bin/
+*.iws
+*.iml
+*.ipr
+*.pdf
+*.classpath
+.project
+*/target/
