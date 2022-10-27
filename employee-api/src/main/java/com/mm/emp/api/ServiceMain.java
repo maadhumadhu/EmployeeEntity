@@ -9,5 +9,6 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 public class ServiceMain {
     public static void main(String[] args) {
         SpringApplication.run(ServiceMain.class,args);
+		System.out.println("APP STARTED");
     }
 }
