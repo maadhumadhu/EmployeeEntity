@@ -45,5 +45,8 @@ public interface EmployeeController {
     Employee getEmployeeByFnameAndLnameAndEmail(@RequestHeader Map<String,String > headers,@RequestParam(value="fName") String fName,
                                                 @RequestParam String lName,@RequestParam String email,HttpServletResponse response);
     @GetMapping("/test/from/github")
-    public testMethodDev();
+    public String testMethodDev();
+
+    @GetMapping("/test/rebase/from/feature3")
+    String testMethod();
 }
