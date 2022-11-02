@@ -49,4 +49,6 @@ public interface EmployeeController {
 
     @GetMapping("/test/stash/from develop branch")
     String testStash();
+
+    String testStashFromFeature();
 }
