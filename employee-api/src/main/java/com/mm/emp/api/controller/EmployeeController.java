@@ -50,5 +50,6 @@ public interface EmployeeController {
     @GetMapping("/test/stash/from develop branch")
     String testStash();
 
+    @GetMapping("/merge")
     String testFromDevelopNew();
 }
