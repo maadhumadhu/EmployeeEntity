@@ -51,4 +51,5 @@ public interface EmployeeController {
     String testStash();
 
     String testStashFromFeatureNew();
+    String testStashFromFeatureNewAgain();
 }
