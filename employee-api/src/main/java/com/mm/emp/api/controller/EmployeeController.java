@@ -44,12 +44,4 @@ public interface EmployeeController {
     @GetMapping(produces = "application/json",value = "/getbydetails")
     Employee getEmployeeByFnameAndLnameAndEmail(@RequestHeader Map<String,String > headers,@RequestParam(value="fName") String fName,
                                                 @RequestParam String lName,@RequestParam String email,HttpServletResponse response);
-    @GetMapping("/test/rebase")
-    String testRebase();
-
-    @GetMapping("/test/stash/from develop branch")
-    String testStash();
-
-    @GetMapping("/merge")
-    String testFromDevelopNew();
 }
