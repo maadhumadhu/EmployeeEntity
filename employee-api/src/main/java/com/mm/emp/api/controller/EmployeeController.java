@@ -46,4 +46,7 @@ public interface EmployeeController {
                                                 @RequestParam String lName,@RequestParam String email,HttpServletResponse response);
     @GetMapping("/test/rebase")
     String testRebase();
+
+    @GetMapping("/test/stash/from develop branch")
+    String testStash();
 }
